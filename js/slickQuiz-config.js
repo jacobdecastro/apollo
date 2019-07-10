@@ -6,7 +6,7 @@ var quizJSON = {
    "info": {
         "name":    "NASA Glenn Apollo Quiz",
         "main":    "<p>Think you're an Apollo expert? Test your knowledge of Apollo here</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
+        "results": "<h5>Congratulations!</h5><p>Change this later to something that conveys they can pick up a poster.</p>",
         "level1":  "Jeopardy Ready",
         "level2":  "Jeopardy Contender",
         "level3":  "Jeopardy Amateur",
