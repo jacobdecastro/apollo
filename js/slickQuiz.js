@@ -296,15 +296,15 @@
 
                         // Appends check answer / back / next question buttons
                         if (plugin.config.backButtonText && plugin.config.backButtonText !== '') {
-                            questionHTML.append('<a href="#" class="button ' + backToQuestionClass + '">' + plugin.config.backButtonText + '</a>');
+                            questionHTML.append('<a href="#" class="butfton ' + backToQuestionClass + '"><button type="button" class="btn btn-info">' + plugin.config.backButtonText + '</button></a>');
                         }
 
                         // If we're not showing responses per question, show next question button and make it check the answer too
                         if (!plugin.config.perQuestionResponseMessaging) {
-                            questionHTML.append('<a href="#" class="button ' + nextQuestionClass + ' ' + checkAnswerClass + '">' + plugin.config.nextQuestionText + '</a>');
+                            questionHTML.append('<a href="#" class="butfton ' + nextQuestionClass + ' ' + checkAnswerClass + '"><button type="button" class="btn btn-info">' + plugin.config.nextQuestionText + '</button></a>');
                         } else {
-                            questionHTML.append('<a href="#" class="button ' + nextQuestionClass + '">' + plugin.config.nextQuestionText + '</a>');
-                            questionHTML.append('<a href="#" class="button ' + checkAnswerClass + '">' + plugin.config.checkAnswerText + '</a>');
+                            questionHTML.append('<a href="#" class="butfton ' + nextQuestionClass + '"><button type="button" class="btn btn-info">' + plugin.config.nextQuestionText + '</button></a>');
+                            questionHTML.append('<a href="#" class="butfton ' + checkAnswerClass + '"><button type="button" class="btn btn-info">' + plugin.config.checkAnswerText + '</button></a>');
                         }
 
                         // Append question & answers to quiz
