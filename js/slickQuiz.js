@@ -318,8 +318,8 @@
                         if (!plugin.config.perQuestionResponseMessaging) {
                             questionHTML.append('<a href="#" class="butto' + nextQuestionClass + ' ' + checkAnswerClass + '"><button type="button" class="btn btn-info">' + nextText + '</button></a>');
                         } else {
-                            questionHTML.append('<a href="#" class="button ' + nextQuestionClass + '"><button type="buftton" class="btn btn-info">' + nextText + '</button></a>');
-                            questionHTML.append('<a href="#" class="button ' + checkAnswerClass + '"><button type="buttofn" class="btn btn-info">' + plugin.config.checkAnswerText + '</button></a>');
+                            questionHTML.append('<a href="#" class="buton ' + nextQuestionClass + '"><button type="button" class="btn btn-info">' + nextText + '</button></a>');
+                            questionHTML.append('<a href="#" class="buton ' + checkAnswerClass + '"><button type="button" class="btn btn-info">' + plugin.config.checkAnswerText + '</button></a>');
                         }
 
                         // Append question & answers to quiz
