@@ -3,10 +3,10 @@
 // NOTE: pay attention to commas, IE struggles with those bad boys
 
 var quizJSON = {
-    "info": {
-        "name":    "Apollo quiz",
-        "main":    "<p>Are you an Apollo expert? Test your knowledge for a chance to win a prize</p>",
-        "results": "<h5>Thanks for playing!</h5>",
+   "info": {
+        "name":    "NASA Glenn Apollo Quiz",
+        "main":    "<p>Think you're an Apollo expert? Test your knowledge of Apollo here</p>",
+        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
         "level1":  "Jeopardy Ready",
         "level2":  "Jeopardy Contender",
         "level3":  "Jeopardy Amateur",
