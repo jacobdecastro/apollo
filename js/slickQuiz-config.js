@@ -6,7 +6,7 @@ var quizJSON = {
     "info": {
         "name":    "Apollo quiz",
         "main":    "<p>Are you an Apollo expert? Test your knowledge for a chance to win a prize</p>",
-        "results": "<h5>Thanks for playing!</h5><p><a href='finish.html'><button type='button' class='btn btn-info'>Click here to finish</button></a></p>",
+        "results": "<h5>Thanks for playing!</h5>",
         "level1":  "Jeopardy Ready",
         "level2":  "Jeopardy Contender",
         "level3":  "Jeopardy Amateur",
