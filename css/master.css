@@ -117,3 +117,7 @@ ul.responses li.incorrect p span {
     margin-top: 20px;
     font-size: 18px;
 }
+
+.quizDescription {
+    font-size: 18px;
+}
