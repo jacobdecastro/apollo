@@ -7,11 +7,11 @@ var quizJSON = {
         "name":    "NASA Glenn Apollo Quiz",
         "main":    "<p>Think you're an Apollo expert? Test your knowledge of Apollo here</p>",
         "results": "<h5>Congratulations!</h5><p>Change this later to something that conveys they can pick up a poster.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "level1":  "Ready for space!",
+        "level2":  "Oh so close",
+        "level3":  "You'll get it next time",
+        "level4":  "Might want to try again",
+        "level5":  "Still in astronaut training" // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
@@ -24,29 +24,7 @@ var quizJSON = {
             ],
             "correct": "<p><span>That's right!</span> Carrying Neil Armstrong and Edwin “Buzz” Aldrin, Eagle was the first crewed vehicle to land on the Moon.</p>",
             "incorrect": "<p><span>The correct answer was Eagle</span> Carrying Neil Armstrong and Edwin “Buzz” Aldrin, Eagle was the first crewed vehicle to land on the Moon.</p>" // no comma here
-        },
-       { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What was the name of the Apollo 11 lunar module?",
-            "a": [
-                {"option": "Eagle",      "correct": true},
-                {"option": "Saturn V",     "correct": false},
-                {"option": "Columbia",      "correct": false},
-                {"option": "Intrepid",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>That's right!</span> Carrying Neil Armstrong and Edwin “Buzz” Aldrin, Eagle was the first crewed vehicle to land on the Moon.</p>",
-            "incorrect": "<p><span>The correct answer was Eagle</span> Carrying Neil Armstrong and Edwin “Buzz” Aldrin, Eagle was the first crewed vehicle to land on the Moon.</p>" // no comma here
-        },
-       { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What was the name of the Apollo 11 lunar module?",
-            "a": [
-                {"option": "Eagle",      "correct": true},
-                {"option": "Saturn V",     "correct": false},
-                {"option": "Columbia",      "correct": false},
-                {"option": "Intrepid",     "correct": false} // no comma here
-            ],
-            "correct": "<p><span>That's right!</span> Carrying Neil Armstrong and Edwin “Buzz” Aldrin, Eagle was the first crewed vehicle to land on the Moon.</p>",
-            "incorrect": "<p><span>The correct answer was Eagle</span> Carrying Neil Armstrong and Edwin “Buzz” Aldrin, Eagle was the first crewed vehicle to land on the Moon.</p>" // no comma here
-        },
+        };
        { // Question 2 - Multiple Choice, Single True Answer
             "q": "What was the name of the Apollo 11 recovery ship?",
             "a": [
