@@ -3,16 +3,16 @@
 h1,h2,h3,h4,h5,h6 {font-weight: bold;}
 
 h1 {
-    font-size: 26px;
+    font-size: 40px;
     margin: 0 0 20px;
     color: #0C4569;
 }
 h2 {
-    font-size: 22px;
+    font-size: 32px;
     margin: 15px 0;
 }
 h3 {
-    font-size: 18px;
+    font-size: 24px;
     margin: 15px 0 10px;
 }
 h4 {
@@ -27,6 +27,9 @@ h6 {
     font-size: 12px;
     margin: 5px 0;
 }
+li {
+    font-size: 18px !important;
+}   
 
 strong { font-weight: bold; }
 em { font-style: italic; }
