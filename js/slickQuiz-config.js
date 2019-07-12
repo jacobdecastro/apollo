@@ -24,7 +24,7 @@ var quizJSON = {
             ],
             "correct": "<p><span>That's right!</span> Carrying Neil Armstrong and Edwin “Buzz” Aldrin, Eagle was the first crewed vehicle to land on the Moon.</p>",
             "incorrect": "<p><span>The correct answer was Eagle</span> Carrying Neil Armstrong and Edwin “Buzz” Aldrin, Eagle was the first crewed vehicle to land on the Moon.</p>" // no comma here
-        };
+        },
        { // Question 2 - Multiple Choice, Single True Answer
             "q": "What was the name of the Apollo 11 recovery ship?",
             "a": [
