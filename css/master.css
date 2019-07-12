@@ -30,6 +30,9 @@ h6 {
 li {
     font-size: 18px !important;
 }   
+p {
+    font-size: 18px !important;
+}
 
 strong { font-weight: bold; }
 em { font-style: italic; }
