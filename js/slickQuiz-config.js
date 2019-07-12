@@ -45,7 +45,7 @@ var quizJSON = {
                 {"option": "All of the above",     "correct": true} // no comma here
             ],
             "correct": "<p><span>That's right!</span>Research advancements made at NASA Glenn, then known as Lewis Research Center, enabled the Apollo program and are vital to the Artemis program of today.</p>",
-            "incorrect": "<p><span>Research advancements made at NASA Glenn, then known as Lewis Research Center, enabled the Apollo program and are vital to the Artemis program of today.</p>" // no comma here
+            "incorrect": "<p><span>The correct answer was all of the above</span>Research advancements made at NASA Glenn, then known as Lewis Research Center, enabled the Apollo program and are vital to the Artemis program of today.</p>" // no comma here
         },
        { // Question 4 - Multiple Choice, Single True Answer
             "q": "Which facility at Glenn helped solve the problem of restarting the Service Module’s propulsion system?",
@@ -56,7 +56,7 @@ var quizJSON = {
                 {"option": "Space Power Facility",     "correct": false} // no comma here
             ],
             "correct": "<p><span>That's right!</span>The Zero-Gravity Facility at NASA Glenn is one of two drop towers on the site. The facility gives researchers a near weightless environment for 5.18 seconds.</p>",
-            "incorrect": "<p><span>The Zero-Gravity Facility at NASA Glenn is one of two drop towers on the site. The facility gives researchers a near weightless environment for 5.18 seconds.</p>" // no comma here
+            "incorrect": "<p><span>The correct answer was the Zero-Gravity Facility</span>The Zero-Gravity Facility at NASA Glenn is one of two drop towers on the site. The facility gives researchers a near weightless environment for 5.18 seconds.</p>" // no comma here
         },
        { // Question 5 - Multiple Choice, Single True Answer
             "q": "Who was an integral part of NASA’s beginning and named the Apollo mission Apollo?",
