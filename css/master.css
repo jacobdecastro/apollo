@@ -115,9 +115,9 @@ ul.responses li.incorrect p span {
 .quizResultsCopy {
     clear: both;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 18px !important;
 }
 
 .quizDescription {
-    font-size: 18px;
+    font-size: 18px !important;
 }
